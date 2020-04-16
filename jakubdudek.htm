@@ -16,10 +16,18 @@
     
 <!-- particles.js container -->
 <div id="particles-js">
-    <div style="position: absolute; color:#eeeeee; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: 'IBM Plex Mono', monospace;">
-        <div style="text-align: center;"><a href="index.htm" style="color: #eeeeee">back to home</a></div>
-        <h1 style="text-align: center">artists</h1>
-        <p style="text-align: center"><a style="color:#eeeeee" href="gaptheboy.htm">gap the boy</a> | <a style="color:#eeeeee" href="zlx.htm">zlx</a> <br> <a style="color:#eeeeee" href="rajz.htm">rajz</a> | <a style="color:#eeeeee" href="jakubdudek.htm">jakubdudek</a></p>
+    <div style="position: absolute; color:#eeeeee; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: 'IBM Plex Mono', monospace; text-align: center">
+        <a href="artists.htm" style="color: #eeeeee">back to artists</a>
+        <h1>jakub dudek</h1>
+        <p>based in cracow</p>
+        <div id="countdown" style="font-size: 10px; text-align: center">
+        <p style="display: inline">next release: </p><p id="demo" style="display: inline"></p>
+        <p></p>
+        <p></p>
+        </div>
+        <div style="opacity: 0.7">
+        <iframe src="https://open.spotify.com/embed/album/1Bvbd5Jv78FLssWpbSXDEv" width="250" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
     </div>
 </div>
     
@@ -32,7 +40,7 @@
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("May 1, 2020 00:00:00").getTime();
+var countDownDate = new Date("Jul 1, 2020 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
